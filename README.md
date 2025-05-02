@@ -105,24 +105,29 @@ Toggle fullscreen mode by clicking the expand/collapse icon in the top right cor
 ```
 \`\`\`
 ai-writing-assistant/
-├── app/                  # Next.js app directory
-│   ├── api/              # API routes
-│   ├── globals.css       # Global styles
-│   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Main page component
-├── components/           # React components
-│   ├── ui/               # UI components (shadcn/ui)
+├── app/                      # Next.js app directory
+│   ├── api/                  # API routes
+│   ├── globals.css           # Global styles
+│   ├── layout.tsx            # Root layout
+│   └── page.tsx              # Main page component
+├── components/               # React components
+│   ├── ui/                   # UI components (shadcn/ui)
 │   ├── writing-assistant.tsx # Main writing assistant component
-│   ├── header.tsx        # Header component
-│   ├── footer.tsx        # Footer component
-│   ├── spline-model.tsx  # 3D model component
+│   ├── header.tsx            # Header component
+│   ├── footer.tsx            # Footer component
+│   ├── spline-model.tsx      # 3D model component
 │   └── fallback-3d-model.tsx # Fallback for 3D model
-├── lib/                  # Utilities and helper functions
-│   ├── document-storage.ts # Document storage utilities
-│   ├── openai.ts         # OpenAI integration
-│   └── utils.ts          # General utilities
-├── public/               # Static files
-└── ...                   # Configuration files
+├── lib/                      # Utilities and helper functions
+│   ├── document-storage.ts   # Document storage utilities
+│   ├── openai.ts             # OpenAI integration
+│   └── utils.ts              # General utilities
+├── public/                   # Static files
+├── next.config.js            # Next.js config (JS version)
+├── postcss.config.js         # PostCSS config
+├── tailwind.config.ts        # Tailwind CSS config
+├── tsconfig.json             # TypeScript config
+├── package.json              # Project dependencies and scripts
+└── requirements.txt          # Python requirements (for AI/backend)
 \`\`\`
 ```
 ## 📄 Dependencies
