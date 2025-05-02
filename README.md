@@ -102,7 +102,7 @@ Navigate to [http://localhost:3000](http://localhost:3000) to see the applicatio
 Toggle fullscreen mode by clicking the expand/collapse icon in the top right corner of the editor for a distraction-free writing experience.
 
 ## 🧩 Project Structure
-
+```
 \`\`\`
 ai-writing-assistant/
 ├── app/                  # Next.js app directory
@@ -124,7 +124,7 @@ ai-writing-assistant/
 ├── public/               # Static files
 └── ...                   # Configuration files
 \`\`\`
-
+```
 ## 📄 Dependencies
 
 This project uses Next.js with React and various utilities. The main dependencies include:
