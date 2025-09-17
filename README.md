@@ -102,7 +102,7 @@ Navigate to [http://localhost:3000](http://localhost:3000) to see the applicatio
 Toggle fullscreen mode by clicking the expand/collapse icon in the top right corner of the editor for a distraction-free writing experience.
 
 ## 🧩 Project Structure
-```
+
 \`\`\`
 ai-writing-assistant/
 ├── app/                      # Next.js app directory
@@ -129,7 +129,7 @@ ai-writing-assistant/
 ├── package.json              # Project dependencies and scripts
 └── requirements.txt          # Python requirements (for AI/backend)
 \`\`\`
-```
+
 ## 📄 Dependencies
 
 This project uses Next.js with React and various utilities. The main dependencies include:
@@ -188,8 +188,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Spline](https://spline.design/) for the 3D design tools
 - [Lucide Icons](https://lucide.dev/) for the icon set
-\`\`\`
 
 ## Package Management
 
 Since this is a Next.js project, we use `package.json` instead of `requirements.txt` for dependency management. Here's the content for your `package.json` file with all required dependencies:
+\`\`\`
