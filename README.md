@@ -188,8 +188,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Spline](https://spline.design/) for the 3D design tools
 - [Lucide Icons](https://lucide.dev/) for the icon set
-
-## Package Management
-
-Since this is a Next.js project, we use `package.json` instead of `requirements.txt` for dependency management. Here's the content for your `package.json` file with all required dependencies:
-\`\`\`
