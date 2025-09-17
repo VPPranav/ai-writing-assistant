@@ -33,15 +33,14 @@ Before you begin, ensure you have the following installed:
 ## 🚀 Installation
 
 1. **Clone the repository**
-
-\`\`\`bash
+```bash
 git clone https://github.com/VPPranav/ai-writing-assistant.git
 cd ai-writing-assistant
-\`\`\`
+````
 
 2. **Install dependencies**
 
-\`\`\`bash
+```bash
 # Using npm
 npm install
 
@@ -50,22 +49,20 @@ yarn install
 
 # Using pnpm
 pnpm install
-\`\`\`
+```
 
 3. **Set up environment variables**
 
 Create a `.env.local` file in the root directory with the following content:
 
-\`\`\`
+```env
 OPENAI_API_KEY=your_openai_api_key_here
 NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
-\`\`\`
-
-Replace `your_openai_api_key_here` with your actual OpenAI API key.
+```
 
 4. **Run the development server**
 
-\`\`\`bash
+```bash
 # Using npm
 npm run dev
 
@@ -74,7 +71,7 @@ yarn dev
 
 # Using pnpm
 pnpm dev
-\`\`\`
+```
 
 5. **Open your browser**
 
@@ -92,10 +89,10 @@ Navigate to [http://localhost:3000](http://localhost:3000) to see the applicatio
 
 ### API Key Management
 
-- The application allows you to input your OpenAI API key directly in the interface
-- Click the "API Key" button to open the dialog and enter your key
-- Your key is stored securely in your browser's local storage
-- If no API key is provided, the application runs in demo mode with limited functionality
+* The application allows you to input your OpenAI API key directly in the interface
+* Click the "API Key" button to open the dialog and enter your key
+* Your key is stored securely in your browser's local storage
+* If no API key is provided, the application runs in demo mode with limited functionality
 
 ### Fullscreen Mode
 
@@ -103,7 +100,7 @@ Toggle fullscreen mode by clicking the expand/collapse icon in the top right cor
 
 ## 🧩 Project Structure
 
-\`\`\`
+```
 ai-writing-assistant/
 ├── app/                      # Next.js app directory
 │   ├── api/                  # API routes
@@ -128,47 +125,38 @@ ai-writing-assistant/
 ├── tsconfig.json             # TypeScript config
 ├── package.json              # Project dependencies and scripts
 └── requirements.txt          # Python requirements (for AI/backend)
-\`\`\`
+```
 
 ## 📄 Dependencies
 
-This project uses Next.js with React and various utilities. The main dependencies include:
+Main dependencies:
 
-- next
-- react
-- react-dom
-- @ai-sdk/openai
-- ai
-- next-themes
-- lucide-react
-- @splinetool/runtime
-- tailwind CSS and its plugins
+* next
+* react
+* react-dom
+* @ai-sdk/openai
+* ai
+* next-themes
+* lucide-react
+* @splinetool/runtime
+* tailwind CSS and its plugins
 
 For a complete list, see the `package.json` file.
 
 ## 🔄 API Integration
 
-The AI Writing Assistant integrates with OpenAI's API to generate and modify text. The integration is handled in `lib/openai.ts` and `app/api/generate/route.ts`.
-
-Key features of the API integration:
-- Fallback to demo mode if API key is missing or invalid
-- Error handling with appropriate user feedback
-- Rate limiting and quota management detection
-- Retry mechanism with exponential backoff
+* Handled in `lib/openai.ts` and `app/api/generate/route.ts`
+* Fallback to demo mode if API key is missing or invalid
+* Error handling with user feedback
+* Rate limiting and quota detection
+* Retry with exponential backoff
 
 ## 🎨 Customization
 
-### Themes
-
-The application supports both light and dark themes. You can customize the themes by modifying the color variables in `app/globals.css`.
-
-### UI Components
-
-Most UI components are built with shadcn/ui, which makes it easy to customize the look and feel of the application. You can modify these components in the `components/ui` directory.
+* **Themes**: Edit variables in `app/globals.css`
+* **UI Components**: Modify in `components/ui`
 
 ## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -178,13 +166,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Licensed under the MIT License - see the LICENSE file.
 
 ## 🙏 Acknowledgments
 
-- [OpenAI](https://openai.com/) for their powerful API
-- [Next.js](https://nextjs.org/) for the React framework
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
-- [Spline](https://spline.design/) for the 3D design tools
-- [Lucide Icons](https://lucide.dev/) for the icon set
+* [OpenAI](https://openai.com/)
+* [Next.js](https://nextjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [shadcn/ui](https://ui.shadcn.com/)
+* [Spline](https://spline.design/)
+* [Lucide Icons](https://lucide.dev/)
+
